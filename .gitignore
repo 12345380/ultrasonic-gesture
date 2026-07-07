@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+
+# 数据（太大，不传）
+# 如果想让别人下载数据，可以保留，但文件太多
+# data/
+# data_new/
+
+# 实验结果（图片太多）
+experiment_results/
+game_logs/
+waveform_plots/
+
+# 备份
+*backup*
+*.bak
+*.backup
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 康复系统（与论文无关）
+rehab_system/
+rehab_profiles/
+web_app_backup/
+web_game/
+web_game_v2/
+new_data/
